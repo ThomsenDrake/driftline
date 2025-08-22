@@ -68,7 +68,7 @@ A real-time anonymous social map application where users share location-based th
    pnpm tsx scripts/setup-storage.ts
    ```
    
-   Or follow the manual setup guide in [`STORAGE_SETUP.md`](./STORAGE_SETUP.md)
+   
 
 ## Development
 
@@ -208,9 +208,3 @@ Configure environment variables in Vercel dashboard and deploy.
 ## License
 
 [MIT License](LICENSE)
-
-## Support
-
-For questions or issues, please check the existing documentation:
-- [`CLAUDE.md`](./CLAUDE.md) - Development guide for Claude Code
-- [`STORAGE_SETUP.md`](./STORAGE_SETUP.md) - Audio storage configuration
