@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env.local
 
 # vercel
 .vercel
@@ -39,3 +40,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# supabase
+supabase/.temp/
+
+# project specific
+*.bak
+scripts/test-*.ts
+
+# documentation (development notes, not for repo)
+CLAUDE.md
+AGENTS.md
+DEMO.md
+STORAGE_SETUP.md
+test-mood-styles.html
+image.png
